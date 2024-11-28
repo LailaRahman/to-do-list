@@ -70,7 +70,7 @@ body, html {
 #add {
   border: none;
   outline: none;
-  padding: 8px 15px;
+  padding: 10px 15px;
   background: #006513;
   color: #fff;
   font-size: 1rem;
@@ -180,7 +180,7 @@ input[type="checkbox"]:checked:after {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
   .todo-app {
     padding: 15px 10px;
   }
@@ -195,8 +195,7 @@ input[type="checkbox"]:checked:after {
   }
 
   #add {
-    padding: 5px 10px;
-    font-size: 0.8rem;
+    padding: 10px;
   }
 
   .text {
