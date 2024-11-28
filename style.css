@@ -93,8 +93,8 @@ body, html {
 }
 
 input[type="checkbox"] {
-  appearance: none;
   -webkit-appearance: none;
+  appearance: none;
   height: 22px;
   width: 22px;
   border-radius: 50%;
@@ -112,8 +112,11 @@ input[type="checkbox"]:after {
   content: "\f00c";
   font-size: 16px;
   color: white;
+  margin-top: 3px;
+  margin-left: 3px;
   display: none;
   background-color: darkgreen;
+  border-radius: 50%;
 }
 
 .text {
